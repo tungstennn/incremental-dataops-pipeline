@@ -4,11 +4,11 @@
 This project implements an **incremental ETL pipeline** that processes **new data added to Amazon S3** and loads it into **Amazon Redshift** using a **star schema**. The pipeline is orchestrated using **Apache Airflow** and deployed with **Terraform** as part of a **DataOps workflow**.
 
 ## 📌 **Project Scope**
-- **Extract**: Detect and process only new data from an S3 bucket.
-- **Transform**: Structure the data into a **dimensional model (star schema)**.
-- **Load**: Store the transformed data in **Amazon Redshift**.
-- **Orchestrate**: Automate the pipeline using **Apache Airflow DAGs**.
-- **Deploy**: Use **Terraform** for infrastructure as code.
+- **Deploy**: Use **Terraform** for infrastructure as code
+- **Extract**: Detect and process only new data from an S3 bucket
+- **Transform**: Structure the data into a **dimensional model (star schema)**
+- **Load**: Store the transformed data in **Amazon Redshift**
+- **Orchestrate**: Automate the pipeline using **Apache Airflow DAGs**
 
 ## ⚡ **Tech Stack**
 - **AWS Services**: S3, Redshift, IAM, EC2
